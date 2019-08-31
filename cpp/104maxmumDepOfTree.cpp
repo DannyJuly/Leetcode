@@ -34,7 +34,7 @@ int maxDepth(TreeNode* root) {
         return L>R?L+1:R+1;
 }
 
-//recursion using stack  DFS
+//recursion using stack  DFS  inorder traversal
 int maxDepth(TreeNode* root) {
     if(!root)return 0;
     stack<pair<TreeNode*,int>>s;

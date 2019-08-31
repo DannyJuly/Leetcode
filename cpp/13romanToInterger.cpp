@@ -14,7 +14,7 @@ public:
     }
 };
 
-//map 简化
+//map 简化  32ms
 class Solution {
 public:
     int romanToInt(string s) {
@@ -30,13 +30,15 @@ public:
     }
 };
 
+//12ms
+
 class Solution {
 public:
     int romanToInt(string s) {
         int x=0;
-        char a[7]{'M','D','C','L','X','V','I'};
+        char a[8]{'M','D','C','L','X','V','I','\0'};
         int c[7]{1000,500,100,50,10,5,1};
-        for(int i=0;i<s.size()-1;i++)
+        for(int i=0;i<s.size();i++)
         {
             int k=0;
             int n=0;
@@ -47,9 +49,6 @@ public:
             else
                 x=x-c[k];
         }
-        int k=0;
-        while(s[s.size()-1]!=a[k]) k++;
-        x=x+c[k];
         return x;
     }
 };
