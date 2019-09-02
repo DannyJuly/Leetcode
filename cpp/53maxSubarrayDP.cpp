@@ -11,4 +11,3 @@ public:
     }
 };         //DP problem
 
-https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/

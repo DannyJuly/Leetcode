@@ -25,7 +25,8 @@ public:
     }
 };
 
-
+//https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
+//explaination of this method.
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -74,5 +75,3 @@ class Solution {
     }
 }
 
-//https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
-//explaination of this method.

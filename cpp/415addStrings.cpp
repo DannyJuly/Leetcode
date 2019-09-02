@@ -18,4 +18,4 @@ public:
         reverse(s.begin(),s.end());
         return s;
     }
-};
+};/home/dian/Downloads/C++ Primer Plus.pdf
