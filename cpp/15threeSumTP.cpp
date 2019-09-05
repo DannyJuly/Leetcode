@@ -59,7 +59,7 @@ public:
                     else{
                         ans.push_back(vector<int>{nums[i],nums[l],nums[r]});
                         l++;r--;
-                    }
+                    }na 
                 }
                 else if(nums[l] + nums[r] < -fix)
                     l++;
